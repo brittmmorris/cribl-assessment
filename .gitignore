@@ -1,0 +1,23 @@
+# Ignore Terraform state files and directories
+*.tfstate
+*.tfstate.*
+
+# Ignore the .terraform directory and its contents
+.terraform/
+
+# Ignore crash logs and Terraform logs
+crash.log
+*.log
+
+# Ignore zip files created during deployment
+lambda.zip
+
+# Ignore backup files
+*.backup
+
+# Ignore sensitive files (if applicable)
+*.pem
+*.key
+
+# Ignore other common temporary files
+*.swp
